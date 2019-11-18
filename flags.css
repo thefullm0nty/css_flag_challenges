@@ -1,31 +1,269 @@
+.flagContainer {
+  height: 20vmin;
+  width: 36vmin;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.redBackground {
+  background-color: red;
+}
+
+.yellowBackground {
+  background-color: yellow;
+}
+
+.blueBackground {
+  background-color: blue;
+}
+
 /* Indonesia */
-
+#indonesia {
+  background-color: white;
+}
+#indonesia .section {
+  height: 50%;
+}
+/*
+#indonesia > .section:first-child{
+  background-color: red;
+}
+/*
 /* Colombia */
-
+#columbia{
+  position: relative;
+}
+#columbia > .thirdFlagSection:nth-child(1){
+  background-color: yellow;
+  height: 50%;
+}
+#columbia > .thirdFlagSection:nth-child(2){
+  background-color: blue;
+  height: 25%;
+}
+#columbia > .thirdFlagSection:nth-child(3){
+  background-color: red;
+  height: 25%;
+}
 /* Ireland */
-
+#ireland {
+  display: flex;
+  background-color: white;
+}
+#ireland > .thirdFlagSection{
+  width: 100%;
+}
+#ireland > .thirdFlagSection:nth-child(1){
+  background-color: green;
+}
+#ireland > .thirdFlagSection:nth-child(3){
+  background-color: orange;
+}
 /* France */
-
+#france {
+  display: flex;
+  background-color: white;
+}
+#france > .thirdFlagSection{
+  width: 100%
+}
+#france > .thirdFlagSection:nth-child(1){
+  background-color: red;
+}
+#france > .thirdFlagSection:nth-child(3){
+  background-color: blue;
+}
 /* Benin */
-
+#benin {
+  display: flex;
+}
+#benin > .verticalHalfSection:nth-child(1){
+  background-color: green;
+  float: left;
+  width: 50%
+}
+#benin > .verticalHalfSection:nth-child(2){
+  float: right;
+  width: 50%
+}
+.yellowHalf{
+  background-color: yellow;
+  height: 50%;
+}
+.redHalf{
+  background-color: red;
+  height: 50%;
+}
 /* Sweden */
-
+#sweden {
+  position: relative;
+  background-color: blue;
+}
+.yellowContainer1 {
+  background-color: yellow;
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  margin-top: 25%;
+}
+.yellowContainer2 {
+  background-color: yellow;
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  margin-left: 30%;
+}
 /* Switzerland */
+#switzerland {
+  position: relative;
+  background-color: red;
+  height: 36vmin;
+  width: 36vmin;
+}
+
+.whiteLineVert {
+  background-color: white;
+  position: absolute;
+  width: 15%;
+  height: 50%;
+  margin-left: 40%;
+  margin-top: 22%;
+}
+
+.whiteLineHori {
+  background: white;
+  position: absolute;
+  width: 50%;
+  height: 15%;
+  margin-top: 40%;
+  margin-left: 23%;
+}
 
 /* Tonga */
 
+#tonga {
+  background-color: pink;
+  position: relative;
+}
+
+/* .tongaLineVert {
+  background-color: red;
+  position: absolute;
+  width: 15%;
+  height: 50%;
+  margin-left: 40%;
+  margin-top: 22%;
+}
+
+.tongaLineHori {
+  background: red;
+  position: absolute;
+  width: 50%;
+  height: 15%;
+  margin-top: 40%;
+  margin-left: 23%;
+} */
+
+.tongaCrossContainer {
+  background-color: white;
+  height: 50%;
+  width: 33%;
+}
+
 /* Japan */
+#japan {
+  display: flex;
+  background-color: white
+}
+.redCircle {
+  border-radius: 50%;
+  margin: auto;
+  background-color: red;
+  height: 70%;
+  width: 40%;
+}
 
 /* Canada */
 
 /* Norway */
+#norway {
+  position: relative;
+  background-color: red;
+}
+
+.norwayWhiteVert {
+  background-color: white;
+  position: absolute;
+  width: 16%;
+  height: 100%;
+  margin-left: 25%;
+}
+
+.norwayWhiteHori {
+  background: white;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  margin-top: 22%;
+}
+
+.norwayBlueVert {
+  background-color: darkblue;
+  position: absolute;
+  width: 8%;
+  height: 100%;
+  margin-left: 29%;
+}
+
+.norwayBlueHori {
+  background: darkblue;
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  margin-top: 25%;
+}
+
+/* Big single element first
 
 /* Greece */
 
 /* Somalia */
 
+#somalia {
+background-color: rgb(16, 147, 199);
+text-align: center;
+}
+
+.somaliaStar {
+  color: white;
+  font-size: 100px;
+  display: inline-block;
+  margin: auto;
+}
+
 /* Chile */
 
+#chile {
+  background-color: red;
+  position: relative;
+}
+
+.chileWhiteTopHalf {
+  height: 50%;
+  background-color: white;
+}
+
+.blueChileSquare {
+  background-color: blue;
+  height: 100%;
+  width: 33%;
+}
+
+.chileStar {
+  font-size: 60px;
+  color: white;
+  margin-left: 18%;
+}
 /* Turkey */
 
 /* China */
