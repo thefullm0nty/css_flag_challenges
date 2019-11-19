@@ -116,7 +116,7 @@
 /* Switzerland */
 #switzerland {
   position: relative;
-  background-color: red;
+  background-color: rgb(255, 0, 0);
   height: 36vmin;
   width: 36vmin;
 }
@@ -143,10 +143,17 @@
 
 #tonga {
   background-color: red;
+  /* position: relative; */
+}
+
+.tongaCrossContainer {
+  background-color: white;
+  height: 50%;
+  width: 33%;
   position: relative;
 }
 
-/* .tongaLineVert {
+.tongaLineVert {
   background-color: red;
   position: absolute;
   width: 15%;
@@ -162,12 +169,6 @@
   height: 15%;
   margin-top: 40%;
   margin-left: 23%;
-} */
-
-.tongaCrossContainer {
-  background-color: white;
-  height: 50%;
-  width: 33%;
 }
 
 /* Japan */
@@ -185,7 +186,34 @@
 
 /* Canada */
 
+#canada {
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  background-image: url(./assets/canada_logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.canadaLeftSide {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  background-color: red;
+  float: left;
+}
+
+.canadaRightSide {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  background-color: red;
+  margin-left: 75%;
+}
+
+
 /* Norway */
+
 #norway {
   position: relative;
   background-color: red;
@@ -226,6 +254,20 @@
 /* Big single element first
 
 /* Greece */
+#greece {
+  display: block;
+  overflow: auto;
+}
+
+.greeceHoriContainer > div {
+  background-color: white;
+  width: 100%;
+  height: 11%;
+}
+
+.greeceHoriContainer:nth-child(odd){
+  background-color: blue;
+}
 
 /* Somalia */
 
